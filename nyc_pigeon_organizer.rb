@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
 
-  first_reduction = data.reduce({}) do |memo, (key, value)|
+  data.reduce({}) do |memo, (key, value)|
     p memo # First block parameter
     p key # Second block parameter
     p value # Second block parameter
