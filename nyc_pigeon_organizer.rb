@@ -7,10 +7,7 @@ def nyc_pigeon_organizer(data)
     memo # Return value for the block, becomes the memo in the next go-round
   end
 
-  second_reduction = first_reduction.reduce({}) do |memo, (key, value)|
 
-      memo # Return value for the block, becomes the memo in the next go-round
-    end
 
 
 end
