@@ -9,11 +9,13 @@ def nyc_pigeon_organizer(data)
 
   data.reduce({}) do |memo, (key, value)|
 
+    memo {
+      :value => key
+    }
+
+
     memo # Return value for the block, becomes the memo in the next go-round
   end
 
-  memo {
-    :value => key
-  }
 
 end
