@@ -8,15 +8,13 @@ def nyc_pigeon_organizer(data)
 #  end
 
   first_reduction = data.reduce({}) do |memo, (key, value)|
-    p memo
-    p key
-    p value
     memo = {
       value => key
     }
   end
 
-  second_reduction = first_reduction.reduce({}) do |memo, (key, value)
+  second_reduction = first_reduction.reduce({}) do | memo, (key, value) |
 
+    memo
 
 end
