@@ -16,5 +16,6 @@ def nyc_pigeon_organizer(data)
     memo[key] = value
     memo # Return value for the block, becomes the memo in the next go-round
   end
+  p more_reduction
 
 end
