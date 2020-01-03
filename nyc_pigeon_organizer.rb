@@ -6,5 +6,6 @@ def nyc_pigeon_organizer(data)
 
     second_reduction = first_reduction.reduce({}) do | memo, (key, value) |
       memo[key] = value
+      memo
     end
 end
