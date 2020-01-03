@@ -15,6 +15,10 @@ def nyc_pigeon_organizer(data)
 
   second_reduction = first_reduction.reduce({}) do | memo, (key, value) |
 
+    p memo # First block parameter
+    p key # Second block parameter
+    p value # Second block parameter
+
     memo
 
 end
