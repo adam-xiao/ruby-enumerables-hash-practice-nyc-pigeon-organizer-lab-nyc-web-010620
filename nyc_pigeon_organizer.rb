@@ -14,8 +14,9 @@ def nyc_pigeon_organizer(data)
     memo = {
       value => key
     }
-     # Return value for the block, becomes the memo in the next go-round
   end
+
+  second_reduction = first_reduction.reduce({}) do |memo, (key, value)
 
 
 end
